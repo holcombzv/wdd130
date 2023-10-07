@@ -1,9 +1,5 @@
 * {
-    /* border: 1px solid red; */
-}
-
-#content{
-    
+    border: 1px solid red;
 }
 
 a {
@@ -40,7 +36,7 @@ p {
     /* text-align: center; */
     width: 40%;
     margin: 0 auto;
-    padding: 10px
+    padding: 10px;
 }
 
 .background {
