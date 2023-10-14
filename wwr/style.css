@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Poppins, Helvetica, sans-serif;
 }
 
 #logo {
     width:80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     color:#001524;
     text-decoration:none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -20,6 +29,9 @@ nav a:hover {
 
 .home-title {
     color:#8DB54C;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 header {
@@ -30,12 +42,20 @@ header {
     background-color:#8DB54C;
     color:#001524;
     text-decoration:none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book {
     background-color:white;
     color:#15616D;
     text-decoration:none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -48,12 +68,26 @@ header {
     color:white;
 }
 
+.card-img {
+    border: 10px solid #15616D;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 body {
     background-color:white;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color:#001524;
+}
+
+h2 {
+    margin: 0;
 }
 
 #hero-msg h1 {
@@ -71,6 +105,7 @@ h1 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .button-box {
@@ -81,21 +116,32 @@ main section {
     text-align:center;
 }
 
+main section img {
+    box-sizing: border-box;;
+}
+
 .msg {
     background-color:#8DB54C;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:#001524;
+    font-family: "Montserrat", Arial, sans-serif;
 }
 
 .msg p {
     color:#001524;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color:#DE791C;
     color:#001524;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -114,6 +160,10 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 } 
+
+footer .social img {
+    padding-top: 15px;
+}
 
 #background {
     height: 725px;
