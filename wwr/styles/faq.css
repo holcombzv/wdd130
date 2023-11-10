@@ -15,6 +15,7 @@ header {
 
 .logo {
     width: 75%;
+    padding-top: 5px;
 }
 
 #logo_link {
@@ -38,6 +39,12 @@ nav a {
 nav a:hover {
     background-color:#15616D;
     color:white;
+}
+
+body {
+    background-color:white;
+    margin: 0;
+    padding: 0;
 }
 
 #hero {
@@ -91,6 +98,76 @@ nav a:hover {
 .contact-us:hover {
     background-color:#DE791C;
     color:#15616D;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+
+.response {
+    background-color: #8DB54C;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.question-age {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+.question-safe {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+.question-what {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+.question-bring {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+.question-great {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+.question-book {
+    grid-column: 2/3;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #DE791C;
+}
+
+#background {
+    grid-column: 1/4;
+    color: #15616D;
 }
 
 footer {
