@@ -1,29 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400&display=swap');
+
 @font-face {
     font-family: StarJedi;
     src: url(Starjedi.ttf);
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: StarJediSub;
     src: url(Starjout.ttf)
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: StarTitleTop;
     src: url(Stjldbl1.ttf);
-  }
+}
   
-  @font-face {
+@font-face {
     font-family: StarTitleBottom;
     src: url(Stjldbl2.ttf);
-  }
-  
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400&display=swap');
+}
 
 .content {
     background-color: black;
     font-family: "Montserrat", Arial, sans-serif;
     height: 100%;
+    max-width: 2000px;
 }
 
 html, body {
@@ -36,6 +37,8 @@ header {
     background-color:black;
     display: grid;
     grid-template-columns: 150px auto;
+    height: 10%;
+    min-height: 15px;
 }
 
 .logo {
@@ -62,15 +65,13 @@ hr {
 nav {
     display: flex;
     justify-content: space-around;
-    width: 4fr;
+    align-items: center;
 }
 
 nav a {
     text-align: center;
     color:#48BFD9;
     text-decoration:none;
-    padding-top: 10px;
-    margin: 60px 0px 5px 0px;
     vertical-align: bottom;
     border-bottom: 2px solid #48BFD9;
     font-family: StarJedi, Arial, sans-serif;
@@ -103,7 +104,7 @@ nav a:hover {
 
 #home-paragraph {
     color: #48BFD9;
-    margin-right: 10px;
+    margin-right: 40px;
     grid-column: 2/3;
     grid-row: 2/3;
     margin-top: 0;
